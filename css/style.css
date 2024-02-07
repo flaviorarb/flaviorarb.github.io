@@ -1,0 +1,177 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color:bisque;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.flex-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    background-color: #353535;
+    
+ 
+}
+
+
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%; 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    
+  
+
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #ffffff;
+    width: 50%;
+    text-align: center;
+    
+  
+    box-sizing: border-box;
+
+}
+
+.box2a{
+    
+    background-color: #565656;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.box3{
+    
+    background-color: #fff;
+    width: 50%;
+    text-align: center; 
+    padding-right: 25px;
+    padding-left: 20px;
+    box-sizing: border-box;
+ 
+    
+
+}
+
+
+
+
+img .box1{
+width: 200px;
+height:200px;
+border-radius: 100px;
+
+}
+
+.frist-title{
+   font-size: 72px;
+   font-family: 'ubuntu', Courier, monospace;
+   margin: 0;
+   
+}
+
+.second-title{
+    font-size: 72px;
+    font-family: 'ubuntu', Courier, monospace;
+    margin: 0;
+    color: #03B8FC;
+ }
+
+.Dados{
+     display: flex;
+     flex-direction: column;
+     color: #595959;
+    
+    
+}
+
+.contatos{
+    display: flex;
+    margin: 0px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+     
+}
+
+
+.Dados .icon{
+    margin-right: 10px;
+    
+
+}
+
+.icon{
+    
+    width: 25px;
+    height:25px;
+
+}
+
+
+.texto{
+    margin: 0px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.box2a .texto{
+    color: #fff;
+}
+
+.sobre_mim {
+
+    color: #595959;
+    
+    
+}
+
+.hobbies .icon{
+
+
+    
+    
+    
+    width: 80px;
+    height: 50px;
+}
+
+
+.subtitle{
+    
+    font-family: 'ubuntu', Courier, monospace;
+    color: #03B8FC;
+    font-size: 28px;
+    margin-top: 30px;
+
+
+}
+
+progress{
+    -webkit-appearance: none;
+}
+  ::-webkit-progress-value {
+    background-color: #03B8FC;
+  }
+  ::-webkit-progress-bar{
+    background-color: #fff;
+    border: 4px solid #fff;
+  }
+
+  .skills, .linguas{ display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+  
+  }
