@@ -59,13 +59,9 @@ body{
     text-align: center; 
     padding-right: 25px;
     padding-left: 20px;
-    box-sizing: border-box;
- 
-    
+    box-sizing: border-box;  
 
 }
-
-
 
 
 img .box1{
@@ -92,30 +88,25 @@ border-radius: 100px;
 .Dados{
      display: flex;
      flex-direction: column;
-     color: #595959;
-    
+     color: #595959; 
     
 }
 
 .contatos{
     display: flex;
     margin: 0px;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-     
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;   
 }
 
 
 .Dados .icon{
-    margin-right: 10px;
-    
+    margin-right: 10px;  
 
 }
 
 .icon{
-    
     width: 25px;
     height:25px;
-
 }
 
 
@@ -137,14 +128,19 @@ border-radius: 100px;
     
 }
 
-.hobbies .icon{
-
-
-    
-    
-    
-    width: 80px;
-    height: 50px;
+.area-hobbies-icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hobbies .icon{   
+    width: 50px;
+    height: 40px;
+    margin: 0;
+}
+.barra{
+    color: #03B8FC;
+    font-size: 60px;
 }
 
 
