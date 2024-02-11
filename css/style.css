@@ -12,8 +12,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 900px;
-    background-color: #353535;
-    
+    background-color: #9c2121;
  
 }
 
@@ -35,13 +34,13 @@ body{
 .box2{
     display: flex;
     flex-direction: column;
+    align-items: stretch;
 
-    background-color: #ffffff;
+    background-color: #fff;
     width: 50%;
     text-align: center;
-    
-  
     box-sizing: border-box;
+   
 
 }
 
@@ -50,6 +49,7 @@ body{
     background-color: #565656;
     padding-left: 25px;
     padding-right: 20px;
+    
 }
 
 .box3{
@@ -60,6 +60,8 @@ body{
     padding-right: 25px;
     padding-left: 20px;
     box-sizing: border-box;  
+
+    
 
 }
 
@@ -114,6 +116,13 @@ border-radius: 100px;
     margin: 0px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     text-align: justify;
+    font-size: 16px;
+}
+
+.objetivo .texto{
+    margin: 0px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-align: justify;
     font-size: 18px;
 }
 
@@ -132,6 +141,7 @@ border-radius: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+  
 }
 .hobbies .icon{   
     width: 50px;
@@ -170,4 +180,33 @@ progress{
     align-items: flex-end;
 
   
+  }
+
+  .area-experiencia, .historico-academico{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  .experiencia1{
+    background-color: #fff;
+    width: 30%;
+   
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-align: justify;
+  }
+  .experiencia2{
+    background-color: #fff;
+    width: 70%;
+    
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-left: 10px;
+    box-sizing: border-box;  
+  }
+
+  .x{
+font-size: 14px;
+
   }
